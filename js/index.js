@@ -132,7 +132,7 @@ function generatePart(name) {
 
 }
 function generateContent(name) {
-    let content=`<h4>给<span class="orange-text">${name}</span>一个人的彩虹屁❤</h4>`;
+    let content=`<h4>给<span class="orange-text">${name}</span>的彩虹屁❤</h4>`;
     for(let i=0;i<getRandom(2,7);i++){
         //console.log("段落"+i);
         content+=generatePart(name);
